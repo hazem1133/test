@@ -15,6 +15,7 @@ app.use('/user',require('./routes/user.route'));
 const port = process.env.PORT;
 app.listen(port,()=>{
   console.log(`server started at ${port}`);
+  console.log("asd");
   
 })
 
